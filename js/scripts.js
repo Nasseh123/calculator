@@ -13,3 +13,11 @@ var add =function(weight,height){
     var weight=parseInt(prompt("Enter Weight in kgs:"));
     var height=parseFloat (prompt("Enter height in meters"));
     alert(add(weight,height));
+
+//Celcius to farehenheit
+var cel=function(celsius){
+    return (celsius*9/5)+32;
+};
+var celsius=parseInt(prompt("Enter Celsius"));
+var text ="Your Fahrenheit is" + cel(celsius);
+alert(text);
